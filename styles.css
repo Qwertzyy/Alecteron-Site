@@ -1,0 +1,39 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@font-face {
+  font-family: 'RajdhaniLight';
+  src: url(fonts/Rajdhani-Light.ttf);
+}
+
+@font-face {
+  font-family: 'RajdhaniRegular';
+  src: url(fonts/Rajdhani-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'RajdhaniBold';
+  src: url(fonts/Rajdhani-Bold.ttf);
+}
+
+h1 {
+  font-family: RajdhaniRegular;
+
+  font-size: 3em;
+}
+
+p {
+  font-family: RajdhaniLight;
+
+  font-size: 1em;
+}
+
+button {
+  font-family: RajdhaniLight;
+
+  font-size: -1em;
+}
